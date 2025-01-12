@@ -6,14 +6,14 @@
         {
             while (true)
             {
-                Console.WriteLine("----------------------");
+                Console.WriteLine("-----------------------");
                 generator.TextWalls(ivents);
                 Console.WriteLine("Здоровье: " + player.health);
-                Console.WriteLine("----------------------");
+                Console.WriteLine("-----------------------");
                 Console.WriteLine("I-инвентарь");
                 Console.WriteLine("Q-искать предметы");
                 Console.WriteLine("K-самоубийство");
-                Console.WriteLine("----------------------");
+                Console.WriteLine("-----------------------");
                 string Action = "";
                 try
                 {
